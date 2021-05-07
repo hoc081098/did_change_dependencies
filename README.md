@@ -12,6 +12,10 @@ Return a `Stream` that emits null and done event when `State.didChangeDependenci
 
 ## Example
 
+<p align="center">
+    <img src="code.png" width="700">
+</p>
+
 ```dart
 import 'dart:async';
 
