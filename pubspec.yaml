@@ -1,0 +1,22 @@
+name: did_change_dependencies
+description: Return a Stream that emits null and done event when didChangeDependencies is called for the first time.
+version: 0.0.1
+author: Petrus Nguyen Thai Hoc <hoc081098@gmail.com>
+homepage: https://github.com/hoc081098/did_change_dependencies.git
+repository: https://github.com/hoc081098/did_change_dependencies.git
+issue_tracker: https://github.com/hoc081098/did_change_dependencies/issues
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  pedantic: ^1.11.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
