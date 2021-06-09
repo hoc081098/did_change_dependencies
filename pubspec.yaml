@@ -1,6 +1,6 @@
 name: did_change_dependencies
 description: Return a Stream that emits null and done event when didChangeDependencies is called for the first time.
-version: 0.0.3
+version: 1.0.0
 author: Petrus Nguyen Thai Hoc <hoc081098@gmail.com>
 homepage: https://github.com/hoc081098/did_change_dependencies.git
 repository: https://github.com/hoc081098/did_change_dependencies.git

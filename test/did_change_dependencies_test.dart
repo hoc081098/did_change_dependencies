@@ -1,8 +1,8 @@
 import 'dart:async';
 
+import 'package:did_change_dependencies/did_change_dependencies.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:did_change_dependencies/did_change_dependencies.dart';
 import 'package:rxdart_ext/rxdart_ext.dart';
 
 class TestWidget extends StatefulWidget {
@@ -37,6 +37,19 @@ class _TestWidgetState extends State<TestWidget>
       (i) => hasValue = true,
       onDone: () => done = true,
     );
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+
+    // event queue
+    Future(() {
+      didChangeDependencies$.listen(
+        (_) => print('didChangeDependencies: data'),
+        onDone: () => print('didChangeDependencies: done'),
+      );
+    });
   }
 
   @override

@@ -1,3 +1,7 @@
+## 1.0.0 - Jun 9, 2021
+
+-   First stable release.
+
 ## 0.0.3 - May 7, 2021
 
 -   Change to broadcast Stream.
