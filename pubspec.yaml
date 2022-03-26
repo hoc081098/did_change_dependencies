@@ -15,7 +15,7 @@ dependencies:
 
 dev_dependencies:
   pedantic: ^1.11.0
-  rxdart_ext: ^0.1.2
+  rxdart_ext: ^0.2.0
   flutter_test:
     sdk: flutter
 
